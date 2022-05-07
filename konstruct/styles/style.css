@@ -287,3 +287,118 @@
   line-height: 29px;
   letter-spacing: 0.19px;
 }
+
+/* SERVICES */
+
+.services {
+  margin-top: 100px;
+  width: 900px;
+}
+
+.services__table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.services__table-cell {
+  width: 200px;
+}
+
+.services__title {
+  margin: 0;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2.31px;
+}
+
+.services__blue-line {
+  width: 50px;
+  margin-top: 5px;
+  border-bottom: 2px solid #00A4E5;
+}
+
+.services__text {
+  margin: 0;
+  width: 405px;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  border: none;
+  color:white;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.services__cards {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.services__card {
+  width: 295px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid #E6E6E6;
+}
+
+.services__illustration {
+  margin-left: 23px;
+}
+
+.services__illustration_theme_project {
+  width: 65.62px;
+  height: 75px;
+  background-image: url(../images/project.svg);
+}
+
+.services__illustration_theme_structure {
+  width: 67.74px;
+  height: 75px;
+  background-image: url(../images/structure.svg);
+}
+
+.services__illustration_theme_factory {
+  width: 70.59px;
+  height: 75px;
+  background-image: url(../images/factory.svg);
+}
+
+.services__card-title {
+  margin: 0 0 0 23px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.43px;
+}
+
+.services__card-text {
+  margin: 0 0 0 23px;
+  width: 250px;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.19px;
+}
