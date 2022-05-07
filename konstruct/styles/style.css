@@ -1,3 +1,86 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueBold.woff2') format('woff2'),
+      url('../fonts/BebasNeueBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Light.woff2') format('woff2') url('../fonts/OpenSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-LightItalic.woff2') format('woff2') url('../fonts/OpenSans-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2') url('../fonts/OpenSans-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Italic.woff2') format('woff2') url('../fonts/OpenSans-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Medium.woff2') format('woff2') url('../fonts/OpenSans-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-MediumItalic.woff2') format('woff2') url('../fonts/OpenSans-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2') url('../fonts/OpenSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiBoldItalic.woff2') format('woff2') url('../fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Bold.woff2') format('woff2') url('../fonts/OpenSans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-BoldItalic.woff2') format('woff2') url('../fonts/OpenSans-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-ExtraBold.woff2') format('woff2') url('../fonts/OpenSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2') url('../fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+
+
 .page {
   min-width: 1100px;
   max-width: 1438px;
@@ -20,28 +103,30 @@
 .header__title {
   margin: 317px auto 0 auto;
   color: white;
-  /* font-family: 'BebasNeueBold'; */
-  line-height: 70px;
+  font-family: 'Bebas Neue';
   font-size: 60px;
   font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 5.7px;
 }
 
 .header__subtitle {
   margin: 0;
   color: white;
-  /* font-family: 'OpenSans'; */
-  line-height: 19px;
+  font-family: 'Open Sans';
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
+  line-height: 19px;
 }
 
 .header__text-action {
   margin: 221px 0 0 0;
   color: white;
-  font-family: 'OpenSans';
-  line-height: 13px;
+  font-family: 'Open Sans';
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 3.7px;
 }
 
 .logo {
@@ -49,11 +134,18 @@
   background-position: center;
 }
 
-.header__logo{
+.logo_place_header{
   margin-top: 41px;
   height: 23px;
   width: 101px;
   background-image: url(../images/projeco-logo-white.svg);
+}
+
+.logo_place_navigation {
+  margin: 0;
+  height: 23px;
+  width: 101px;
+  background-image: url(../images/projeco-logo-black.svg);
 }
 
 /* Navigation */
@@ -61,9 +153,10 @@
 .navigation {
   display: flex;
   justify-content: center;
+  border: 1px solid #E6E6E6;
 }
 
-.table {
+.navigation__table {
   min-height: 65px;
   min-width: 900px;
   list-style-type: none;
@@ -75,14 +168,7 @@
   align-items: center;
 }
 
-.table__logo {
-  margin: 0;
-  height: 23px;
-  width: 101px;
-  background-image: url(../images/projeco-logo-black.svg);
-}
-
-.table__menu {
+.navigation__menu {
   min-width: 375px;
   display: flex;
   flex-direction: row;
@@ -90,15 +176,114 @@
   align-items: center;
 }
 
-.table__refference {
+.navigation__refference {
   color: black;
   text-decoration: none;
-  /* font-family: 'OpenSans'; */
+  font-family: 'Open Sans';
   line-height: 14px;
   font-size: 12px;
   font-weight: 600;
 }
 
-.table__refference_color_blue {
+.navigation__refference_color_blue {
   color: #00A4E5;
+}
+
+/* CONTENT */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ABOUT */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__title {
+  margin: 57px auto 0 auto;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.31px;
+}
+
+.about__blue-line {
+  width: 50px;
+  margin-top: 5px;
+  border-bottom: 2px solid #00A4E5;
+}
+
+.about__table {
+  margin-top: 80px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  width: 405px;
+  display: flex;
+  flex-direction:column;
+  align-items: stretch;
+}
+
+.article__title{
+  margin: 0;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.4px;
+  letter-spacing: 0.19px;
+}
+
+.article__text{
+  margin: 30px 0 auto;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.19px;
+}
+
+.article__title_color_blue {
+  color: #00A4E5;
+}
+
+.card {
+  width: 140px;
+  height: 224px;
+  background-position: center;
+  background-repeat: none;
+  background-size: contain;
+  object-fit: cover;
+  align-self: flex-end;
+}
+
+.card_image_plan {
+  background-image: url(../images/plan.svg);
+}
+
+.card_image_manage {
+  background-image: url(../images/manage.svg);
+}
+
+.card_image_build {
+  background-image: url(../images/build.svg);
+}
+
+.card__title {
+  margin: 10px auto auto 10px;
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0.19px;
 }
