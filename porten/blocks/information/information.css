@@ -1,0 +1,10 @@
+.information {
+     margin: 0 auto;
+     padding: 15px 0 15px;
+     max-width: 1110px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     background-color: black;
+}

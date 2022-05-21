@@ -1,0 +1,9 @@
+.header__button {
+     color: #969696;
+     margin: 0 20px 0 0;
+     padding: 31px 20px 31px;
+     text-align: center;
+     font-family: 'PT Sans';
+     font-size: 14px;
+     text-transform: uppercase;
+}
