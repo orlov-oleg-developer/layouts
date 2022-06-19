@@ -1,0 +1,12 @@
+.resources__link {
+  width: 270px;
+  height: 38px;
+  text-align: center;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.resources__link:hover {
+  opacity: 45%;
+}
