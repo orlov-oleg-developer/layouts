@@ -1,0 +1,11 @@
+.new-collection {
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../images/Rectangle\ 8.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  object-position: center center;
+}

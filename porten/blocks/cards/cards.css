@@ -1,0 +1,5 @@
+.cards {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+}

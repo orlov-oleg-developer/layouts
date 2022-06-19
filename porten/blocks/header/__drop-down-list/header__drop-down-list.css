@@ -1,0 +1,11 @@
+.header__drop-down-list {
+  display: none;
+}
+
+@media screen and (max-width: 725px) {
+  .header__drop-down-list {
+    margin: 0;
+    display: flex;
+    margin-right: 10px;
+  }
+}

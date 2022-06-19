@@ -1,6 +1,15 @@
 .header__menu {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 725px) {
+  .header__menu {
+    display: none;
+  }
 }

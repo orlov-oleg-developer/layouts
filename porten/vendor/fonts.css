@@ -1,67 +1,26 @@
-@font-face {
-  font-family: 'PT Sans';
-  src: url('../fonts/PTSans-Regular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
+  /* PT Sans */
+
 @font-face {
 	font-family: 'PT Sans';
-	src: url('../fonts/PTSans-Regular.ttf');
-	font-weight: normal;
+	font-weight: 400;
 	font-style: normal;
+	src: local('PT Sans'), url('../fonts/ptsans/ptsans.woff') format('woff');
+ }
+	
+  /* Post No Bills Jaffna Bold */
+	
+ @font-face {
+	  font-family: 'Post No Bills Jaffna Bold';
+	  font-style: normal;
+	  font-weight: normal;
+	  src: local('Post No Bills Jaffna Bold'), url('../fonts/PostNoBillsJaffna/PostNoBillsJaffna-Bold.woff') format('woff');
+	}
+	
+  /* PT Sans */
+
+  @font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Playfair Display Normal'), url('../fonts/PlayfairDisplay/Playfairdisplayregular.woff') format('woff');
    }
-/* @font-face {
-	font-family: 'PT Sans';
-	src: url('../fonts/PTSans-Italic.ttf');
-	font-weight: normal;
-	font-style: italic;
-   } */
-
-   /*Post No Bills Jaffna*/
-
-   /* @font-face {
-	font-family: 'Post No Bills Jaffna Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Post No Bills Jaffna Regular'), url('PostNoBillsJaffna-Regular.woff') format('woff');
-	} */
-	
- 
-	@font-face {
-	font-family: 'Post No Bills Jaffna Bold';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Post No Bills Jaffna Bold'), url('../fonts/PostNoBillsJaffna/PostNoBillsJaffna-Bold.woff') format('woff');
-	}
-	
- 
-	/* @font-face {
-	font-family: 'Post No Bills Jaffna Light Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Post No Bills Jaffna Light Regular'), url('PostNoBillsJaffna-Light.woff') format('woff');
-	}
-	
- 
-	@font-face {
-	font-family: 'Post No Bills Jaffna Medium Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Post No Bills Jaffna Medium Regular'), url('PostNoBillsJaffna-Medium.woff') format('woff');
-	}
-	
- 
-	@font-face {
-	font-family: 'Post No Bills Jaffna SemiBold Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Post No Bills Jaffna SemiBold Regular'), url('PostNoBillsJaffna-SemiBold.woff') format('woff');
-	}
-	
- 
-	@font-face {
-	font-family: 'Post No Bills Jaffna ExtraBold Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Post No Bills Jaffna ExtraBold Regular'), url('PostNoBillsJaffna-ExtraBold.woff') format('woff');
-	} */

@@ -1,0 +1,15 @@
+.first-screen__town-name {
+  margin: 7px 0 0 0;
+  color: white;
+  font-family: 'PT Sans';
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .first-screen__town-name {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,7 @@
+.new-collection__white-line {
+     margin-bottom: 30px;
+     width: 120px;
+     height: 1px;
+     background-color: white;
+     box-sizing: border-box;
+}

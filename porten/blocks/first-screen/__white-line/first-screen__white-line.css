@@ -1,0 +1,12 @@
+.first-screen__white-line {
+  width: 179px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .first-screen__white-line {
+    width: 124px;
+  }
+}
+

@@ -1,0 +1,8 @@
+.information__link {
+  margin: 0;
+  color: gray;
+  text-decoration: none;
+  font-family: 'PT Sans';
+  font-size: 12px;
+  font-weight: normal;
+}

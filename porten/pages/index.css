@@ -9,13 +9,60 @@
 @import url(../blocks/information/__text/information__text.css);
 @import url(../blocks/information/__registration/information__registration.css);
 @import url(../blocks/information/__door-logo/information__door-logo.css);
+@import url(../blocks/information/__link/information__link.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
-@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__drop-down-list/header__drop-down-list.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__button/_active/header__button_active.css);
 @import url(../blocks/header/__basket-logo/header__basket-logo.css);
 @import url(../blocks/header/__search-logo/header__search-logo.css);
+
+/* Drop-down-list */
+@import url(../blocks/drop-down-list/drop-down-list.css);
+
+/* Logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_first-screen.css);
+
+@import url(../blocks/main/main.css);
+
+/* First screen */
+@import url(../blocks/first-screen/first-screen.css);
+@import url(../blocks/first-screen/__brand/first-screen__brand.css);
+@import url(../blocks/first-screen/__white-line/first-screen__white-line.css);
+@import url(../blocks/first-screen/__town-name/first-screen__town-name.css);
+@import url(../blocks/first-screen/__squad/first-screen__squad.css);
+@import url(../blocks/first-screen/__text/first-screen__text.css);
+
+/* Section */
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__photo/section__photo.css);
+
+/* Season */
+@import url(../blocks/season/season.css);
+@import url(../blocks/season/__title/season__title.css);
+@import url(../blocks/season/__title/_place/season__title_place_third-section.css);
+@import url(../blocks/season/__white-line/season__white-line.css);
+@import url(../blocks/season/__white-line/_place/season__white-line_place_third-section.css);
+@import url(../blocks/season/__text/season__text.css);
+
+/* Cards */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__card/cards__card.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__product-name/cards__product-name.css);
+@import url(../blocks/cards/__product-price/cards__product-price.css);
+
+/* New collection */
+@import url(../blocks/new-collection/new-collection.css);
+@import url(../blocks/new-collection/__title/new-collection__title.css);
+@import url(../blocks/new-collection/__white-line/new-collection__white-line.css);
+@import url(../blocks/new-collection/__button/new-collection__button.css);
+@import url(../blocks/new-collection/__button/_place/new-collection__button_place_third-section.css);
+@import url(../blocks/new-collection/__button-title/new-collection__button-title.css)
+
