@@ -1,0 +1,15 @@
+.feedback__list {
+  padding: 0;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  gap: 58px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, -webkit-max-content));
+  grid-template-columns: repeat(auto-fit, minmax(230px, max-content));
+}
+
+@media screen and (max-width: 768px) {
+  .feedback__list {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./images/plane.svg">
+  <title>Куда я поеду</title>
+</head>
+
+<body class="root">
+  <header class="header root__header">
+    <nav class="menu">
+      <ul class="menu__links">
+        <li class="menu__item">
+          <a href="#" class="menu__link">Мечты</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Ожидания</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">Реальность</a>
+        </li>
+      </ul>
+      <svg class="menu__button">
+          <path stroke="#000" d="M0 .5h20M0 8h20M0 15.5h20"/>
+        </svg>
+      <ul class="menu__drop-down">
+        <li class="menu__item menu__item_place_drop-down">
+          <a href="#" class="menu__link">Мечты</a>
+        </li>
+        <li class="menu__item menu__item_place_drop-down">
+          <a href="#" class="menu__link">Ожидания</a>
+        </li>
+        <li class="menu__item menu__item_place_drop-down">
+          <a href="#" class="menu__link">Реальность</a>
+        </li>
+      </ul>
+      <a href="#" class="menu__link menu__link_complain">Пожаловаться</a>
+    </nav>
+  </header>
+  <main class="main root__main">
+    <section class="description main__description">
+      <div class="mark description__mark">
+        <p class="mark__subtitle">Куда я поеду</p>
+        <h1 class="mark__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+      </div>
+      <img class="description__image" src="./images/intro-image-edited.png" alt="Самолет">
+    </section>
+    <section class="places main__places">
+      <div class="place">
+        <img src="./images/places-forest.jpeg" alt="самолет" class="place__img">
+        <div class="place__descriptions">
+          <h2 class="place__title">Поеду в лес</h2>
+          <div class="place__paragraphs">
+            <p class="place__text">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+            <p class="place__text">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          </div>
+        </div>
+      </div>
+      <div class="place">
+        <img src="./images/places-mountains-1.png" alt="горы" class="place__img place__img_reverse">
+        <div class="place__descriptions place__descriptions_reverse">
+          <h2 class="place__title">Поеду в горы</h2>
+          <div class="place__paragraphs">
+            <p class="place__text">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах
+              берёт своё начало большинство рек Земли.</p>
+          </div>
+        </div>
+      </div>
+      <div class="place">
+        <img src="./images/places-black-sea-1.png" alt="море" class="place__img">
+        <div class="place__descriptions">
+          <h2 class="place__title">Поеду на Чёрное море</h2>
+          <div class="place__paragraphs">
+            <p class="place__text">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+            <p class="place__text">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+            <p class="place__text">
+              Уеду я.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback main__feedback">
+      <div class="mark mark_place_feedback">
+        <p class="mark__subtitle">Люди</p>
+        <h2 class="mark__title">Что говорят и говорили люди о путешествиях</h2>
+      </div>
+      <ul class="feedback__list">
+        <li class="feedback__list-item">
+          <h3 class="feedback__item-title">Иван Бунин</h3>
+          <p class="feedback__item-paragraph">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+        </li>
+        <li class="feedback__list-item">
+          <h3 class="feedback__item-title">Альбер Камю</h3>
+          <p class="feedback__item-paragraph">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+        </li>
+        <li class="feedback__list-item">
+          <h3 class="feedback__item-title">Норвежская пословица</h3>
+          <p class="feedback__item-paragraph">Лишь тот, кто странствует, открывает новые пути.</p>
+        </li>
+        <li class="feedback__list-item">
+          <h3 class="feedback__item-title">Мария Захарова</h3>
+          <p class="feedback__item-paragraph">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer root__footer">
+    <p class="footer__copyright">&copy; 2022</p>
+  </footer>
+  <a href="#" class="up">
+    <i class='bx bx-up-arrow-alt up__icon'></i>
+  </a>
+  <div class="modal">
+    <div class="modal__window">
+      <form class="form modal__form">
+        <input type="text" class="form__input" placeholder="Введите ваше имя">
+        <textarea class="form__textarea" placeholder="Опишите свою претензию"></textarea>
+        <button type="submit" class="form__input form__submit"> submit </button>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="./pages/index.js"></script>
+</body>
+
+</html>

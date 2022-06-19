@@ -1,0 +1,22 @@
+@-webkit-keyframes close {
+  from {
+    left: 35px;
+}
+  to {
+    left: -150px;
+}
+}
+
+@keyframes close {
+  from {
+    left: 35px;
+}
+  to {
+    left: -150px;
+}
+}
+
+.animation__close{
+  -webkit-animation: close ease 0.5s;
+          animation: close ease 0.5s;
+}

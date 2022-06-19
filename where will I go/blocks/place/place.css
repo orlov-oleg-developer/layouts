@@ -1,0 +1,6 @@
+.place {
+  background-color: #f2f2f2;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(303px, 1fr));
+}
