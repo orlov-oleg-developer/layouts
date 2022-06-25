@@ -1,8 +1,8 @@
 .first-screen {
-  max-width: 1920px;
   min-height: 810px;
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 10px;
   background-image: url(../../images/first-screen-bg.svg);
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,0 +1,4 @@
+.new-collection__image {
+  width: 100%;
+  object-fit: contain;
+}

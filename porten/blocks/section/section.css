@@ -1,6 +1,4 @@
 .section {
-  max-width: 1920px;
-  min-width: 320px;
   display: grid;
-  grid-template-columns: 1fr minmax(880px, max-content);
+  grid-template-columns: fit-content(1040px) fit-content(880px);
 }

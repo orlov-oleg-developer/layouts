@@ -1,6 +1,6 @@
 .season__text {
   color: white;
-  width: 470px;
+  max-width: 470px;
   margin: 0 0 60px 0;
   font-family: 'PT Sans';
   font-size: 14px;

@@ -60,6 +60,8 @@
 
 /* New collection */
 @import url(../blocks/new-collection/new-collection.css);
+@import url(../blocks/new-collection/__image/new-collection__image.css);
+@import url(../blocks/new-collection/__wrapper/new-collection__wrapper.css);
 @import url(../blocks/new-collection/__title/new-collection__title.css);
 @import url(../blocks/new-collection/__white-line/new-collection__white-line.css);
 @import url(../blocks/new-collection/__button/new-collection__button.css);
