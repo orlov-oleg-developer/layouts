@@ -1,7 +1,22 @@
 .section__photo {
-  max-width: 880px;
-  max-height: 600px;
-  background-image: url(../../../images/Rectangle\ 9.png);
-  background-repeat: no-repeat;
-  object-fit: contain;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media screen and (max-width: 1919px) {
+  .section__photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__photo {
+   display: none;
+  }
 }

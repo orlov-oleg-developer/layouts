@@ -1,3 +1,9 @@
 .season__white-line_place_third-section {
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 750px) {
+  .season__white-line_place_third-section {
+    margin-bottom: 20px;
+  }
+}

@@ -42,15 +42,8 @@
 
 /* Section */
 @import url(../blocks/section/section.css);
+@import url(../blocks/section/_state/section_state_reversed.css);
 @import url(../blocks/section/__photo/section__photo.css);
-
-/* Season */
-@import url(../blocks/season/season.css);
-@import url(../blocks/season/__title/season__title.css);
-@import url(../blocks/season/__title/_place/season__title_place_third-section.css);
-@import url(../blocks/season/__white-line/season__white-line.css);
-@import url(../blocks/season/__white-line/_place/season__white-line_place_third-section.css);
-@import url(../blocks/season/__text/season__text.css);
 
 /* Cards */
 @import url(../blocks/cards/cards.css);
@@ -67,5 +60,13 @@
 @import url(../blocks/new-collection/__white-line/new-collection__white-line.css);
 @import url(../blocks/new-collection/__button/new-collection__button.css);
 @import url(../blocks/new-collection/__button/_place/new-collection__button_place_third-section.css);
-@import url(../blocks/new-collection/__button-title/new-collection__button-title.css)
+@import url(../blocks/new-collection/__button-title/new-collection__button-title.css);
+
+/* Season */
+@import url(../blocks/season/season.css);
+@import url(../blocks/season/__title/season__title.css);
+@import url(../blocks/season/__title/_place/season__title_place_third-section.css);
+@import url(../blocks/season/__white-line/season__white-line.css);
+@import url(../blocks/season/__white-line/_place/season__white-line_place_third-section.css);
+@import url(../blocks/season/__text/season__text.css);
 

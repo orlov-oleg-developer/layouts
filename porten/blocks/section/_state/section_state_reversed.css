@@ -1,0 +1,13 @@
+.section_state_reversed {
+  grid-template-columns: fit-content(880px) 1fr;
+  position: relative;
+}
+
+@media screen and (max-width: 1919px) {
+  .section_state_reversed {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
