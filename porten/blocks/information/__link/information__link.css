@@ -5,4 +5,11 @@
   font-family: 'PT Sans';
   font-size: 12px;
   font-weight: normal;
+
+  transition: color 0.5s ease;
+}
+
+.information__link:hover {
+  color: white;
+  cursor: pointer;
 }

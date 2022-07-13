@@ -1,4 +1,11 @@
 .section {
   display: grid;
-  grid-template-columns: fit-content(1040px) fit-content(880px);
+  grid-template-columns: 1fr fit-content(880px);
+}
+
+@media screen and (max-width: 1919px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -1,7 +1,15 @@
 .new-collection__title {
+  box-sizing: border-box;
   color: white;
-  margin: 484px auto 30px;
+  margin: 55% auto 30px;
   text-align: center;
   font-family: 'Playfair Display';
   font-size: 36px;
+}
+
+@media screen and (max-width: 550px) {
+  .new-collection__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 }

@@ -1,15 +1,10 @@
-/* .cards {
-  padding: 0 80px 0;
-  margin: 0 auto;
-  display: flex;
-  align-items: flex-start;
-  list-style-type: none;
-} */
-
 .cards {
-  padding: 0 80px 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 80px 93px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, max-content));
+  gap: 25px 50px;
+  justify-content: center;
 }

@@ -4,3 +4,9 @@
   font-family: 'PT Sans';
   font-size: 18px;
 }
+
+@media screen and (max-width: 550px) {
+  .new-collection__button-title {
+    font-size: 12px;
+  }
+}

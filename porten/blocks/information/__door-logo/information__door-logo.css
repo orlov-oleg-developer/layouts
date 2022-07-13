@@ -3,4 +3,9 @@
   height: 16px;
   background-image: url(../../../images/ic_sharp-log-in.svg);
   margin-right: 15px;
+
+}
+
+.information__door-logo:hover {
+  cursor: pointer;
 }
