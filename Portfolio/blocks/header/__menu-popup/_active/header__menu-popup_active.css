@@ -1,0 +1,9 @@
+.header__menu-popup_active {
+  display: flex;
+}
+
+@media screen and (min-width: 450px) {
+  .header__menu-popup_active {
+    display: none;
+  }
+}

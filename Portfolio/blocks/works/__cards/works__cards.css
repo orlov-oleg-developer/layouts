@@ -1,0 +1,10 @@
+.works__cards {
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  row-gap: 31px;
+}

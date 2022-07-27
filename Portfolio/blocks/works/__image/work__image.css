@@ -1,0 +1,10 @@
+.work__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 715px) {
+  .work__image {
+    max-width: 340px;
+    justify-self: center;
+  }
+}

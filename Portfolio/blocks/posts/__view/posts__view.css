@@ -1,0 +1,21 @@
+.posts__view {
+  color: #00A8CC;
+  margin: 0;
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.posts__view:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .posts__view {
+    display: none;
+  }
+}

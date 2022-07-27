@@ -1,0 +1,8 @@
+.posts__card-text-container {
+  margin: 0 0 11px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 26px;
+}

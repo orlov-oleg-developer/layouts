@@ -1,0 +1,15 @@
+.works__type {
+  color: #8695A4;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+@media screen and (max-width: 715px) {
+  .works__type {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

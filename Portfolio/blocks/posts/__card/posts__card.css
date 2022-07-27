@@ -1,0 +1,23 @@
+.posts__card {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 24px;
+
+  background-color: white;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: box-shadow 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .posts__card {
+    padding: 19px;
+  }
+}
+
+.posts__card:hover {
+  box-shadow: 2px 2px 15px 5px rgba(0, 108, 180, 0.25);
+}

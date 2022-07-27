@@ -1,0 +1,17 @@
+.posts__card-title {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 17px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+@media screen and (max-width: 768px) {
+  .content__posts {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

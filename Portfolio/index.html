@@ -8,10 +8,132 @@
   <link rel="stylesheet" href="./pages/index.css">
   <!-- <link rel="icon" href="./images/plane.svg"> -->
   <title>Портфолио</title>
+  <script defer src="./pages/index.js"></script>
 </head>
 
 <body class="root">
+<header class="header root__header">
+  <ul class="header__links">
+    <li  class="header__links-item">
+      <a class="header__link" href="#">Works</a>
+    </li>
+    <li  class="header__links-item">
+      <a class="header__link" href="#">Blog</a>
+    </li>
+    <li  class="header__links-item">
+      <a class="header__link" href="#">Contact</a>
+    </li>
+  </ul>
+  <img src="./images/menu.svg" class="header__menu-icon" alt="Иконка меню">
+
+  <!-- Menu Popup -->
+  <ul class="header__menu-popup">
+    <li  class="header__links-item">
+      <a class="header__link" href="#">Works</a>
+    </li>
+    <li  class="header__links-item">
+      <a class="header__link" href="#">Blog</a>
+    </li>
+    <li  class="header__links-item">
+      <a class="header__link" href="#">Contact</a>
+    </li>
+  </ul>
+</header>
+<main class="content root__content">
+  <section class="intro content__intro" aria-label="Основная сейкция">
+    <article class="intro__content">
+      <h1 class="intro__title">Hi, I&nbsp;am John, Creative Technologist</h1>
+      <p class="intro__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <a class="intro__button" href="#">Download Resume</a>
+    </article>
+    <img class="intro__photo" src="./images/photo.png" alt="Фото Бена">
+  </section>
+  <section class="posts content__posts">
+    <div class="posts__text">
+      <p class="posts__recents">Recent posts</p>
+      <a class="posts__view" href="#">View all</a>
+    </div>
+    <ul class="posts__cards">
+      <li class="posts__card">
+        <h2 class="posts__card-title">Making a design system from scratch</h2>
+        <div class="posts__card-text-container">
+          <p class="posts__card-text">12 Feb 2020</p>
+          <p class="posts__card-text">|</p>
+          <p class="posts__card-text">Design, Pattern</p>
+        </div>
+        <p class="posts__card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </li>
+      <li class="posts__card">
+        <h2 class="posts__card-title">Creating pixel perfect icons in Figma</h2>
+        <div class="posts__card-text-container">
+          <p class="posts__card-text">12 Feb 2020</p>
+          <p class="posts__card-text">|</p>
+          <p class="posts__card-text">Figma, Icon Design</p>
+        </div>
+        <p class="posts__card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </li>
+    </ul>
+  </section>
+  <section class="works content__works">
+    <h2 class="works__title">Featured works</h2>
+    <ul class="works__cards">
+      <li class="works__card">
+        <img class="work__image" alt="Картинка карточки" src="./images/image-1.png">
+        <article class="works__content">
+          <h3 class="works__card-title">Designing Dashboards</h3>
+          <div class="works__card-container">
+            <div class="works__date-bg">
+              <p class="works__date">2020</p>
+            </div>
+            <p class="works__type">Dashboard</p>
+          </div>
+          <p class="works__card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </article>
+      </li>
+      <li class="works__card">
+        <img class="work__image" alt="Картинка карточки" src="./images/image-2.png">
+        <article class="works__content">
+          <h3 class="works__card-title">Vibrant Portraits of 2020</h3>
+          <div class="works__card-container">
+            <div class="works__date-bg">
+              <p class="works__date">2018</p>
+            </div>
+            <p class="works__type">Illustration</p>
+          </div>
+          <p class="works__card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </article>
+      </li>
+      <li class="works__card">
+        <img class="work__image" alt="Картинка карточки" src="./images/image-3.png">
+        <article class="works__content">
+          <h3 class="works__card-title">36 Days of Malayalam type</h3>
+          <div class="works__card-container">
+            <div class="works__date-bg">
+              <p class="works__date">2018</p>
+            </div>
+            <p class="works__type">Typography</p>
+          </div>
+          <p class="works__card-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </article>
+      </li>
+    </ul>
+  </section>
+</main>
+<footer class="footer root__footer">
+  <nav class="footer__nav">
+    <img class="footer__link" src="./images/fb.svg" alt="Иконка Facebook">
+    <img class="footer__link" src="./images/insta.svg" alt="Иконка Instagram">
+    <img class="footer__link" src="./images/Group.svg" alt="Иконка Twiter">
+    <img class="footer__link" src="./images/Linkedin.svg" alt="Иконка Linkedin">
+  </nav>
+  <p class="footer__copy">Copyright &copy;2020 All rights reserved </p>
+</footer>
 
 </body>
-
 </html>

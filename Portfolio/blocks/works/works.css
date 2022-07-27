@@ -1,0 +1,8 @@
+.works {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 858px;
+
+  display: flex;
+  flex-direction: column;
+}

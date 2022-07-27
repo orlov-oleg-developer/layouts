@@ -1,0 +1,16 @@
+.posts__text {
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  max-width: 856px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .posts__text {
+    justify-content: center;
+  }
+}
+

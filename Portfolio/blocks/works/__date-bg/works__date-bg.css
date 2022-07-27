@@ -1,0 +1,9 @@
+.works__date-bg {
+  width: 62px;
+  height: 25px;
+
+  border-radius: 16px;
+  background-color: #142850;
+
+  position: relative;
+}

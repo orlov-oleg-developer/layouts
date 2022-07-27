@@ -1,0 +1,16 @@
+.content__posts {
+  box-sizing: border-box;
+  padding: 27px 0 32px;
+}
+
+@media screen and (max-width: 860px) {
+  .content__posts {
+    padding: 27px 60px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__posts {
+    padding: 27px 10px 38px;
+  }
+}

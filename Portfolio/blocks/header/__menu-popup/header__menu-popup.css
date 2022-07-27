@@ -1,0 +1,22 @@
+.header__menu-popup {
+  background-color: white;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0 10px 10px;
+
+  border-radius: 5px;
+
+  list-style-type: none;
+
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+
+  position: absolute;
+  top: 50px;
+}
+
+
+

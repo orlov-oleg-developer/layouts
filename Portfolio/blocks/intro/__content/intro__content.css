@@ -1,0 +1,15 @@
+.intro__content {
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__content {
+    grid-area: content;
+
+    align-items: center;
+  }
+}

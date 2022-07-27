@@ -1,0 +1,22 @@
+.header__menu-icon {
+  margin: 0;
+  width: 30px;
+  height: 18px;
+
+  object-position: center center;
+  object-fit: contain;
+
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .header__menu-icon {
+    display: flex;
+  }
+}
+
+.header__menu-icon:hover{
+  cursor: pointer;
+}
+
+

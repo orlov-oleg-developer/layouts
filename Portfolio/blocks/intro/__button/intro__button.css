@@ -1,0 +1,24 @@
+.intro__button {
+  max-width: 208px;
+
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 13px 21px 13px 20px;
+
+  background-color: #FF6464;
+  border-radius: 2px;
+
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+
+  transform: scale(1,1);
+  transition: transform 0.2s ease-in;
+}
+
+.intro__button:hover {
+  transform: scale(1.025,1.025);
+}
