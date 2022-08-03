@@ -1,57 +1,27 @@
-// VARIABLES
+// // VARIABLES
 
-const selectors = {
-  header: '.header',
-  menuIcon: '.header__menu-icon',
-  menuPopup: '.header__menu-popup',
-  popupLink: '.header__links-item',
-  root: '.root',
+// const selectors = {
+//   header: '.header',
+//   menuIcon: '.header__menu-icon',
+//   menu: '.header__navigation',
 
-  worksButton: '#works-button',
+//   ESC_CODE: 'Escape',
+// }
 
-  ESC_CODE: 'Escape',
-}
+// // MAIN LOGIC
+// const header = document.querySelector(selectors.header);
+// const menuIcon = header.querySelector(selectors.menuIcon);
+// const menu = document.querySelector(selectors.menu);
 
-const header = document.querySelector(selectors.header);
-const menuIcon = header.querySelector(selectors.menuIcon);
-const menuPopup = header.querySelector(selectors.menuPopup);
-const root = document.querySelector(selectors.root);
+// menuIcon.addEventListener('click', openMenu);
 
-const worksButton = header.querySelector(selectors.worksButton);
+// menu.addEventListener('click', (event) => {
+//   console.log(event.target);
+// } )
 
-// MAIN LOGIC
+// // FUNCTIONS
 
-menuIcon.addEventListener('click', openMenuPopup);
+// function openMenu() {
+//   menu.classList.add('header__navigation_opened');
+// }
 
-root.addEventListener('mouseup', (event) => {
-  console.log(event.target);
-  if(event.target !== event.currentTarget) {
-    return
-  }
-  closeMenuPopup ();
-});
-
-document.addEventListener('keydown', (event) => {
-  if(!menuPopup.classList.contains('header__menu-popup_active')) {
-    return
-  }
-  if(event.key === selectors.ESC_CODE) {
-    closeMenuPopup();
-  }
-})
-
-worksButton.addEventListener('click', () => {
-  window.location.href = '../works.html'
-})
-
-// FUNCTIONS
-
-function openMenuPopup () {
-  menuPopup.classList.add('header__menu-popup_active');
-  root.classList.add('root_bg');
-}
-
-function closeMenuPopup () {
-  menuPopup.classList.remove('header__menu-popup_active');
-  root.classList.remove('root_bg');
-}

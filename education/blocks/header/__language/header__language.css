@@ -1,0 +1,39 @@
+.header__language {
+  color: black;
+  text-decoration: none;
+
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  position: relative;
+
+  z-index: 2;
+}
+
+.header__language::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  border-bottom: 1px solid black;
+
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in;
+}
+
+.header__language:hover::before {
+  transform: scaleX(1);
+}
+
+@media screen and (max-width: 550px) {
+  .header__language {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

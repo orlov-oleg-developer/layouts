@@ -1,0 +1,11 @@
+.content__cards {
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 812px) {
+  .content__cardsr {
+    margin-bottom: 25px;
+  }
+}
+

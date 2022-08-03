@@ -1,0 +1,31 @@
+.header__menu-icon {
+  display: none;
+
+  box-sizing: border-box;
+  width: 30px;
+  height: 18px;
+
+  background-image: url(../../../images/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
+  position: relative;
+
+  z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__menu-icon {
+    display: flex;
+  }
+}
+
+.header__menu-icon:hover {
+  cursor: pointer;
+}
+
+.header__menu-icon:hover + .header__navigation {
+  opacity: 1;
+  visibility: visible;
+}

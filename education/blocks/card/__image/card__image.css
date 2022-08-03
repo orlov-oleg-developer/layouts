@@ -1,0 +1,14 @@
+.card__image {
+  margin: 0;
+  width: 148px;
+
+  border-radius: 15px;
+
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1115px) {
+  .card__image {
+    width: 99px;
+  }
+}
