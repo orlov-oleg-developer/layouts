@@ -1,0 +1,17 @@
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-top: 1px solid #1B3C7A;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+}

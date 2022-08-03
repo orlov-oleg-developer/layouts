@@ -1,0 +1,17 @@
+.card__description {
+  margin: 0 0 35px;
+  max-width: 280px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+@media screen and (max-width: 1115px) {
+  .card__description {
+    margin-bottom: 20px;
+
+    font-size: 16px;
+  }
+}
+

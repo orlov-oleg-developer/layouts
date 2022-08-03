@@ -1,0 +1,9 @@
+.content__intro {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 550px) {
+  .content__intro {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__img {
+  width: 25px;
+  height: 25px;
+
+  position: relative;
+  z-index: 2;
+}
+
+@media screen and (max-width: 550px) {
+  .header__img {
+    width: 15px;
+    height: 15px;
+  }
+}

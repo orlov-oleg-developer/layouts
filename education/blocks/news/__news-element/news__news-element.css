@@ -1,0 +1,15 @@
+.news__news-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.news__news-element:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 812px) {
+  .news__news-element:nth-of-type(n+2) {
+    display: none
+  }
+}
+

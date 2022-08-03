@@ -1,0 +1,12 @@
+.news__news-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 265px));
+  column-gap: 38px;
+  row-gap: 30px;
+  justify-content: center;
+}

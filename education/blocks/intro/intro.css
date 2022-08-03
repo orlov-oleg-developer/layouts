@@ -1,0 +1,20 @@
+.intro {
+  box-sizing: border-box;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(350px, 617px);
+  align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .intro{
+    grid-template-columns: 375px minmax(350px, 617px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .intro{
+    grid-template-columns: 1fr;
+  }
+}
